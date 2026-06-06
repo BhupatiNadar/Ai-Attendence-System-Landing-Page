@@ -40,14 +40,31 @@
     </nav>
 
     <header class="hero">
-        <div class="Left_img">
-            <img src="" alt="">
+        <div class="header_left_div">
+            <img src="{{url_for('static',filename='img/demo/Left_img1.png')}}" alt="">
         </div>
-        <div>
+        <div class="header_content">
         <div class="Welcome_message">Welcome to Smart Attendence System</div>
+        <div class="header_content_para">
+            Ai Powered
+            Attendence
+            System
         </div>
-        <div class="Right_img">
-            <img src="" alt="">
+        <p>Revolutionizing the classroom with next-gen computer vision and voice biometrics. Trusted by educators for speed,
+        accuracy, and security.</p>
+        <div>
+            <a href="https://ai-attendance-make-attendence-faster.streamlit.app/" class="btn-pill">Start Ai Attendence
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="20px" width="20px"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" d="M0 0h24v24H0V0z"></path>
+                    <path d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"></path>
+                </svg>
+            </a>
+            <a href="#">Explore Journey</a>
+        </div>
+        </div>
+        <div class="header_right_div">
+            <img src="{{url_for('static',filename='img/demo/Right_img1.png')}}" alt="">
         </div>
     </header>
 </body>
