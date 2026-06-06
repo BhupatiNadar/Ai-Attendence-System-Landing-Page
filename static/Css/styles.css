@@ -1,0 +1,99 @@
+:root {
+    --bg-main: #F0F4FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-main);
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 80px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.logo-text {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: blueviolet;
+}
+
+.btn-pill {
+    background-color: white;
+    color: black;
+    padding: 13px 32px;
+    border-radius: 100px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-pill:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+/* .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Welcome_message{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    padding: 13px 32px;
+    margin: 30px 0px;
+    background-color: white;
+    border-radius: 100px;
+    font-weight: 1000;
+} */
