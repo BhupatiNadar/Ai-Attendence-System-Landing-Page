@@ -187,3 +187,629 @@ h4 {
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
+
+.hearo_foot{
+    background-color: #000;
+    color: white;
+    padding: 60px 80px 40px;
+    margin-top: 80px;
+}
+
+.Main_footer_content{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.logo_box{
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo_box .logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo_box .logo img{
+    height: 50px;
+    width: auto;
+}
+
+.logo_box .logo-text{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.logo_box p{
+    font-size: 0.95rem;
+    color: #ccc;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.Main_footer_content > div:not(.logo_box){
+    flex: 0.8;
+    min-width: 150px;
+}
+
+.Main_footer_content h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.Main_footer_content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.Main_footer_content ul li{
+    font-size: 0.95rem;
+    color: #ccc;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.Main_footer_content ul li:hover{
+    color: #fff;
+    padding-left: 5px;
+}
+
+.border{
+    height: 1px;
+    background-color: #333;
+    margin: 30px 0;
+}
+
+.hearo_foot > div:last-child{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #999;
+    padding-top: 20px;
+}
+
+.blue-section{
+    height: 40vh;
+    margin: 30px;
+    background-color: #0055DA;
+    border-radius: 30px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-section h2{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.blue-section p{
+    padding: 10px;
+}
+
+.innovative_feature{
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #F0F4FF 0%, #E8F4FF 100%);
+}
+
+.innovative_feature h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.Feature_card1{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.Feature_card1 div{
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 30px;
+    gap: 15px;
+    font-size: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.Feature_card1 div:hover{
+    border-color: #0055DA;
+    box-shadow: 0 15px 40px rgba(0, 85, 218, 0.15);
+    transform: translateY(-10px);
+}
+
+.Feature_card1 div p:first-child{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.Feature_card1 div h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000;
+    margin: 10px 0 0 0;
+}
+
+.Feature_card1 div p:not(:first-child){
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.purple-section{
+    background: linear-gradient(135deg, #F3E5FF 0%, #E8D5FF 100%);
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.purple-section > p:first-child{
+    font-size: 0.95rem;
+    color: #7c3aed;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.purple-section h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.purple-section-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.purple-section-card1,
+.purple-section-card2,
+.purple-section-card3,
+.purple-section-card4{
+    background: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.1);
+    border: 2px solid rgba(124, 58, 237, 0.1);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purple-section-card1:hover,
+.purple-section-card2:hover,
+.purple-section-card3:hover,
+.purple-section-card4:hover{
+    border-color: #7c3aed;
+    box-shadow: 0 15px 40px rgba(124, 58, 237, 0.25);
+    transform: translateY(-8px);
+}
+
+.purple-section-card1 div,
+.purple-section-card2 div,
+.purple-section-card3 div,
+.purple-section-card4 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.purple-section-card1 p:first-child,
+.purple-section-card2 p:first-child,
+.purple-section-card3 p:first-child,
+.purple-section-card4 p:first-child{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.purple-section-card1 h2,
+.purple-section-card2 h2,
+.purple-section-card3 h2,
+.purple-section-card4 h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 10px 0 0 0;
+}
+
+.purple-section-card1 p:not(:first-child),
+.purple-section-card2 p:not(:first-child),
+.purple-section-card3 p:not(:first-child),
+.purple-section-card4 p:not(:first-child){
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.purple-section-card1 p:last-child,
+.purple-section-card2 p:last-child,
+.purple-section-card3 p:last-child,
+.purple-section-card4 p:last-child{
+    font-size: 0.85rem;
+    color: #7c3aed;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.Journey{
+    padding: 80px 40px;
+    background: linear-gradient(180deg, #F0F4FF 0%, #FFFFFF 100%);
+}
+
+.Journey > span{
+    display: block;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #0055DA;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.Journey > h1{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-bottom: 80px;
+}
+
+.Step1, .Step2, .Step3, .Step4, .Step5, .Step6{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 100px;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Step2, .Step4, .Step6{
+    flex-direction: row-reverse;
+}
+
+.Step1_content, .Step2_content, .Step3_content, .Step4_content, .Step5_content, .Step6_content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Step1_content span, .Step2_content span, .Step3_content span, .Step4_content span, .Step5_content span, .Step6_content span{
+    font-size: 0.9rem;
+    color: #0055DA;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.Step1_content h2, .Step2_content h2, .Step3_content h2, .Step4_content h2, .Step5_content h2, .Step6_content h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.Step1_content p, .Step2_content p, .Step3_content p, .Step4_content p, .Step5_content p, .Step6_content p{
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.Step1_img, .Step2_img, .Step3_img, .Step4_img, .Step5_img, .Step6_img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Step1_img img, .Step2_img img, .Step3_img img, .Step4_img img, .Step5_img img, .Step6_img img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 85, 218, 0.15);
+    transition: all 0.4s ease;
+    object-fit: cover;
+}
+
+.Step1:hover .Step1_img img,
+.Step2:hover .Step2_img img,
+.Step3:hover .Step3_img img,
+.Step4:hover .Step4_img img,
+.Step5:hover .Step5_img img,
+.Step6:hover .Step6_img img{
+    transform: scale(1.05);
+    box-shadow: 0 20px 50px rgba(0, 85, 218, 0.25);
+}
+
+@media (max-width: 768px){
+    .Step1, .Step2, .Step3, .Step4, .Step5, .Step6{
+        flex-direction: column !important;
+        gap: 40px;
+        margin-bottom: 60px;
+    }
+    
+    .Journey > h1{
+        font-size: 2rem;
+    }
+    
+    .Step1_content h2, .Step2_content h2, .Step3_content h2, .Step4_content h2, .Step5_content h2, .Step6_content h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:768px){
+    .navbar{
+        padding: 12px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-links{
+        display: none;
+    }
+    
+    .btn-pill{
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+    
+    .hero{
+        height: auto;
+        padding: 40px 20px;
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+    .header_left_div img,
+    .header_right_div img{
+        height: 200px;
+    }
+    
+    .header_content_para{
+        font-size: 1.8rem;
+    }
+    
+    .Welcome_message{
+        font-size: 0.85rem;
+    }
+    
+    .header_content p{
+        font-size: 0.95rem;
+    }
+    
+    .header_content > div:last-child{
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .innovative_feature{
+        padding: 40px 20px;
+    }
+    
+    .innovative_feature h1{
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+    
+    .Feature_card1{
+        gap: 20px;
+    }
+    
+    .Feature_card1 div{
+        min-width: 100%;
+        max-width: 100%;
+        padding: 30px 20px;
+    }
+    
+    .Feature_card1 div h4{
+        font-size: 1.1rem;
+    }
+    
+    .Feature_card1 div p:first-child{
+        font-size: 2.5rem;
+    }
+    
+    .Feature_card1 div p:not(:first-child){
+        font-size: 0.85rem;
+    }
+    
+    .purple-section{
+        padding: 40px 20px;
+        margin: 40px 0;
+    }
+    
+    .purple-section h1{
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+    
+    .purple-section > p:first-child{
+        font-size: 0.85rem;
+    }
+    
+    .purple-section-cards{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 100%;
+    }
+    
+    .purple-section-card1,
+    .purple-section-card2,
+    .purple-section-card3,
+    .purple-section-card4{
+        padding: 25px 15px;
+    }
+    
+    .purple-section-card1 h2,
+    .purple-section-card2 h2,
+    .purple-section-card3 h2,
+    .purple-section-card4 h2{
+        font-size: 1.1rem;
+    }
+    
+    .purple-section-card1 p:first-child,
+    .purple-section-card2 p:first-child,
+    .purple-section-card3 p:first-child,
+    .purple-section-card4 p:first-child{
+        font-size: 2rem;
+    }
+    
+    .purple-section-card1 p:not(:first-child),
+    .purple-section-card2 p:not(:first-child),
+    .purple-section-card3 p:not(:first-child),
+    .purple-section-card4 p:not(:first-child){
+        font-size: 0.8rem;
+    }
+    
+    .Journey{
+        padding: 40px 20px;
+    }
+    
+    .Journey > span{
+        font-size: 0.8rem;
+    }
+    
+    .Journey > h1{
+        font-size: 1.6rem;
+        margin-bottom: 40px;
+    }
+    
+    .Step1, .Step2, .Step3, .Step4, .Step5, .Step6{
+        flex-direction: column !important;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .Step1_content h2, .Step2_content h2, .Step3_content h2, 
+    .Step4_content h2, .Step5_content h2, .Step6_content h2{
+        font-size: 1.3rem;
+    }
+    
+    .Step1_content span, .Step2_content span, .Step3_content span,
+    .Step4_content span, .Step5_content span, .Step6_content span{
+        font-size: 0.75rem;
+    }
+    
+    .Step1_content p, .Step2_content p, .Step3_content p,
+    .Step4_content p, .Step5_content p, .Step6_content p{
+        font-size: 0.9rem;
+    }
+    
+    .Step1_img img, .Step2_img img, .Step3_img img,
+    .Step4_img img, .Step5_img img, .Step6_img img{
+        border-radius: 10px;
+    }
+    
+    .blue-section{
+        height: auto;
+        margin: 20px;
+        padding: 40px 20px;
+    }
+    
+    .blue-section h2{
+        font-size: 1.5rem;
+        padding: 15px 0;
+    }
+    
+    .blue-section p{
+        padding: 10px 0;
+        font-size: 0.9rem;
+    }
+    
+    .hearo_foot{
+        padding: 40px 20px;
+        margin-top: 40px;
+    }
+    
+    .Main_footer_content{
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px 0;
+    }
+    
+    .Main_footer_content > div{
+        min-width: 100%;
+    }
+    
+    .logo_box{
+        min-width: 100%;
+    }
+    
+    .Main_footer_content h4{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    
+    .Main_footer_content ul li{
+        font-size: 0.9rem;
+    }
+    
+    .logo_box .logo-text{
+        font-size: 1rem;
+    }
+    
+    .logo_box p{
+        font-size: 0.85rem;
+    }
+}
